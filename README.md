@@ -1,37 +1,16 @@
-# Portfolio
-🤖 Personal portfolio website of Muhammad Shahzad — AI Engineer &amp; Generative AI Specialist built with React, TailwindCSS &amp; Framer Motion
-# Muhammad Shahzad — AI Engineer Portfolio 🚀
+# React + Vite
 
-A modern, production-ready personal portfolio website built with 
-React + TailwindCSS + Framer Motion. Featuring a dark cyberpunk 
-AI engineer theme with smooth animations and interactive UI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
-- 🎨 Dark cyberpunk theme with cyan/green accents
-- ⚡ Smooth scroll animations (Framer Motion)
-- 💻 Animated terminal in About section
-- 📊 Animated skill progress bars
-- 🗂️ Interactive project cards with 3D tilt effect
-- 📱 Fully responsive (mobile + desktop)
-- 🌐 Neural network particle background
-- ✍️ Typewriter effect for job titles
-- 📬 Contact form with EmailJS
+Currently, two official plugins are available:
 
-## 🛠️ Tech Stack
-React | Vite | TailwindCSS | Framer Motion | tsParticles
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🔗 Live Demo
-[View Portfolio →](your-vercel-link-here)
+## React Compiler
 
-## 👨‍💻 About Me
-AI Engineer & Data Scientist from Lahore, Pakistan.
-Specialized in LLMs, RAG Pipelines, n8n Automation,
-LangChain, and Generative AI.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📬 Contact
-- Email: shazd4666@gmail.com
-- LinkedIn: linkedin.com/in/muhammadshahzad-269b67409
-  
-react portfolio ai-engineer generative-ai langchain n8n 
-tailwindcss framer-motion llm rag-pipeline chatbot 
-python machine-learning lahore-pakistan
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
